@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1011507000260",
+    "firebase_url": "https://chat-with-me-4cf63.firebaseio.com",
+    "project_id": "chat-with-me-4cf63",
+    "storage_bucket": "chat-with-me-4cf63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011507000260:android:8c790d16badea36e",
+        "android_client_info": {
+          "package_name": "com.thangnc.lab7chatfb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011507000260-q0iva8rogh05r4iughlhb1c76sg76m1d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thangnc.lab7chatfb",
+            "certificate_hash": "b5717d489da098b4b5f28c6702caddb20f70f341"
+          }
+        },
+        {
+          "client_id": "1011507000260-i552n9qrkrbmc5fmp6hq0jrlmqn71733.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeVTmCLmj4coRulcyLyfGLSMyE-IOa6mk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011507000260-i552n9qrkrbmc5fmp6hq0jrlmqn71733.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

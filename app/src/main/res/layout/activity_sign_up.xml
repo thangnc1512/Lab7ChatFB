@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/login_screen_2"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:id="@+id/imgsignup"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/login_screen"/>
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_centerInParent="true"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvSignUp"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/tilUser"
+            android:layout_marginBottom="15dp"
+            android:text="Register Account"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#f15a24"
+            android:textAllCaps="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tilUser"
+            android:textColorHint="#ffffff"
+            android:layout_marginBottom="5dp"
+            android:layout_centerInParent="true">
+            <EditText
+                android:id="@+id/etUser"
+                android:hint="Username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            android:id="@+id/tilEmail"
+            android:textColorHint="#ffffff"
+            android:layout_below="@id/tilUser">
+            <EditText
+                android:id="@+id/etEmail"
+                android:hint="Email"
+                android:textColorHint="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            android:id="@+id/tilPass"
+            android:textColorHint="#ffffff"
+            android:layout_below="@id/tilEmail">
+            <EditText
+                android:id="@+id/etPass"
+                android:hint="Password"
+                android:textColorHint="#ffffff"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btSignUp"
+            android:background="#f15a24"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/tilPass"
+            android:layout_marginTop="40dp"
+            android:text="Sign Up"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
